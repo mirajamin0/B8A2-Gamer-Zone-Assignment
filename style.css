@@ -1,0 +1,560 @@
+/* Global CSS */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+* {
+    font-family: 'Work Sans', sans-serif;
+    color: #534C64;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    padding: 21px 40px;
+    gap: 10px;
+    text-transform: uppercase;
+}
+/* main{
+    max-width: 90%;
+    margin: 0px auto;
+} */
+.gredient-title{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.common-description{
+    color: #534C64;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+}
+/* Global CSS END */
+
+/* Header Section CSS Start */
+Header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.logo-text{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    color: #3C354F ;
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+li a {
+    text-decoration: none;
+    font-size: 1.20rem;
+    font-weight: 500px;
+
+}
+.nav-btn{
+    color: #3C354F;
+    font-size: 1.20rem;
+    font-weight: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    cursor: pointer;
+
+}
+.nav-btn img{
+    width: auto;
+    height: 15px;
+}
+
+/* Header Section CSS END */
+
+/* <!-- GOAT Section CSS --> */
+.goat-section{
+    display: flex;
+    background-color: #FFF;
+    justify-content: space-around ;
+}
+.goat-section-content{
+    background-image: url(/images/Group\ 14.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+.goat-image img{
+    height: 90%;
+    margin-left: 50px;
+}
+.goat-title-play{
+    margin: 0;
+    color: #0B0223;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.goat-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    margin: 0;
+}
+.btn-go{
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 48px;
+    padding: 21px 40px;
+    gap: 10px;
+    text-transform: uppercase;
+}
+/* <!-- GOAT Section End --> */
+
+/* <!-- We are Gamer Section CSS --> */
+    .gamer-section-container{
+        display: flex;
+        padding: 100px 8rem ;
+        gap: 50px;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    }
+    .gamer-image img {
+        height: auto;
+    }
+    .gamer-content{
+        padding: 20px;
+        justify-content: right;
+        text-align: right;
+    }
+    .unleash-gamer{
+        font-size: 1.5rem;
+        font-weight: 500px;
+        line-height: 2.8rem;
+    }
+    .unleash-gamer-bold{
+        color: #534C64;
+        font-family: Work Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.8rem;
+    }
+
+/* <!-- We are Gamer Section End --> */
+
+/* <!-- Online Game Section CSS --> */
+
+    .online-game-section{
+        margin: 100px;
+    }
+    .online-game-content{
+        text-align: center;
+    }
+    .online-game-title{
+        color: #0B0223;
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    .Card-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .card-description{
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 30px; 
+    }
+
+    .card-3{
+        position: relative;
+    }
+    .card-3 img {
+        height: auto;
+        display: block;
+      }
+    .image-play-btn{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: white;
+        font-size: 1rem;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .image-play-btn:hover {
+        background-color: red;
+      }
+    .image-play-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1rem;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+/* <!-- Online Game Section END --> */
+
+/* <!-- Play Instantly Section CSS --> */
+
+.instantly-section{
+    margin: 0 240px;
+    padding: auto;
+    display: flex;
+    /* gap: 50px; */
+    text-align: right;
+}
+.instantly-section-content{
+    padding-top: 200px;
+    margin-bottom: 0;
+}
+.instantly-section-img{
+    margin-bottom: -200px;
+}
+.instantly-section-img-2{
+    border-radius: 8px;
+    color: #FFF;
+    width: 342px;
+    position: relative;
+    padding-right: 400px;
+    bottom: 300px;
+}
+/* <!-- Play Instantly Section END --> */
+
+/* <!-- Button Section CSS --> */
+
+.button-section{
+    padding: 100px 300px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.button-section-top{
+    margin-bottom: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5 ,1fr);
+}
+.button-section-bottom{
+    display: grid;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 20px;
+    grid-template-columns: repeat(4 ,1fr);
+}
+.button-section-btn{
+    width: 200px;
+    display: flex;
+    padding-left: 10px;
+    gap: 20px;
+    align-items: center;
+    color: #0B0223;
+    font-weight: 600;
+    border: transparent;
+    border-radius: 50px;
+    background: #FFF;
+    height: 80px;
+}
+.button-section-btn:hover{
+    border-radius: 50px;
+    border: 1.5px solid var(--Linear, #FF42A5);
+    background: #FFF;
+    width: 200px;
+}
+.button-section-responsive{
+    display: none;
+}
+
+/* <!-- Button Section END --> */
+
+/* <!-- Footer Section CSS --> */
+footer{
+    padding: 100px 240px;
+    background: #0B0223;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.footer-policy ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+footer li {
+    list-style: none;
+}
+footer li a{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+footer i {
+    padding: 10px;
+    color: #fff;
+}
+footer p{
+    padding: 30px 50px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
+}
+/* <!-- Footer Section End --> */
+
+/* Responsive Style */
+/* for Small device */
+@media screen and (max-width:576px) {
+    Header{
+        padding-bottom: 30px;
+    }
+    Header , nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .goat-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .goat-image img{
+        height: auto;
+        width: 80%;
+    }
+    .goat-section-content{
+        padding: 50px;
+    }
+    .gamer-section-container{
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+
+    }
+    .gamer-image img{
+        height: auto;
+        width: 90%;
+    }
+    .gamer-content{
+        text-align: center;
+        padding: 30px;
+    }
+    .Card-container{
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+        align-items: center;
+    }
+    .instantly-section{
+        margin: 50px;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        padding-bottom: 0;
+
+    }
+    .instantly-section-content{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .instantly-section-img{
+        margin-bottom: -300px;
+    }
+    .instantly-section-img-1{
+        width: 90%;
+        height: auto;
+        padding-left: 50px;
+    }
+    .instantly-section-img-2{
+        width: 50%;
+        height: auto;
+        position: relative;
+        padding-top: 120px;
+        padding-right: 0;
+        right: 100px;
+
+    }
+
+    .button-section-bottom,.button-section-top {
+        display: none;
+    }
+    .button-section{
+        padding: 40px;
+    }
+    .button-section-responsive{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3 ,1fr);
+        width: auto;
+    }
+    .button-section-btn{
+        width: 90%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #0B0223;
+        font-weight: 500;
+        border: transparent;
+        border-radius: 50px;
+        background: #FFF;
+        height: 40px;
+    }
+    .button-section-btn:hover{
+        border-radius: 50px;
+        border: 1.5px solid var(--Linear, #FF42A5);
+        background: #FFF;
+        width: 90%;
+    }
+    .button-section-btn img{
+        width: 90%;
+        height: 2rem;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-nav ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-policy ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    /* .footer-icone{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    } */
+}
+
+/* For Tablets */
+@media screen and (min-width:577px) and (max-width:900px) {
+    Header{
+        padding-bottom: 30px;
+    }
+    Header , nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .goat-image img{
+        height: auto;
+        width: 90%;
+    }
+    .goat-section{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .gamer-section-container{
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px;
+    }
+    .gamer-image img{
+        height: auto;
+        width: 90%;
+    }
+    .Card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .instantly-section{
+        text-align: right;
+        margin: 0 50px;
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 0;
+    }
+    .instantly-section-content{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .instantly-section-img{
+        margin-bottom: -200px;
+    }
+    .instantly-section-img-1{
+        width: 90%;
+        height: auto;
+        padding-left: 50px;
+    }
+    .instantly-section-img-2{
+        width: 50%;
+        height: auto;
+        position: relative;
+        bottom: 300px;
+        /* padding-top: 120px; */
+    }
+    .button-section-bottom,.button-section-top {
+        display: none;
+    }
+    .button-section{
+        padding: 50px;
+    }
+    .button-section-responsive{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3 ,1fr);
+    }
+
+}
+
+/* Responsive Style End*/
